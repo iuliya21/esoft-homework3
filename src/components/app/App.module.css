@@ -1,0 +1,20 @@
+.listCompetentions {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 40px;
+  max-width: 400px;
+}
