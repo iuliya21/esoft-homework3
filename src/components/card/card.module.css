@@ -1,0 +1,41 @@
+.imageItem {
+  width: 55px;
+}
+
+.card {
+  box-shadow: 5px 5px 2px 1px #1A1A1A;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+}
+
+.deleteIcon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
